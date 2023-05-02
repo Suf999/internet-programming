@@ -1,3 +1,23 @@
 @media (min-width: 992px) {
   .rounded-lg-3 { border-radius: .3rem; }
 }
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(128, 0, 32);
+}
